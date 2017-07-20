@@ -1,0 +1,21 @@
+{
+    "name": "jayvaghela/tinytimezone",
+    "description": "Tinytimezone Package",
+    "authors": [
+        {
+            "name": "Jaydev Vaghela",
+            "email": "jay@yugtia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Jayvaghela\\Tinytimezone\\": "packages/jayvaghela/tinytimezone/src"
+        }
+    },
+}
